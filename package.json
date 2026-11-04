@@ -1,0 +1,11 @@
+{
+  "name": "human-frontier",
+  "private": true,
+  "version": "0.1.0",
+  "packageManager": "pnpm@9.0.0",
+  "scripts": {
+    "dev:api": "pnpm --filter @human-frontier/api dev",
+    "dev:mobile": "pnpm --filter @human-frontier/mobile start",
+    "typecheck": "pnpm -r typecheck"
+  }
+}
